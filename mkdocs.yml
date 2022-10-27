@@ -3,6 +3,11 @@ nav:
   - Home: index.md
   - "Product - Variant New Approach": ProductVariant.md
   - Batman: batman.md
-features:
-  -navigation.tracking
-  -toc.follow
+theme:
+  name: material
+  features:
+    -navigation.tracking
+    -toc.follow
+
+plugins:
+  - include-markdown
