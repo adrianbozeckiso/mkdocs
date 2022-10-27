@@ -1,0 +1,13 @@
+site_name: Omnichannel Docs
+nav:
+  - Home: index.md
+  - "Product - Variant New Approach": ProductVariant.md
+  - Batman: batman.md
+theme:
+  name: material
+  features:
+    -navigation.tracking
+    -toc.follow
+
+plugins:
+  - include-markdown
